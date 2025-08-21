@@ -1,5 +1,9 @@
 # Welcome to Savant's source repository.
 
+![Crates.io Version](https://img.shields.io/crates/v/savant)
+![GitHub License](https://img.shields.io/github/license/xtt28/savant)
+
+
 Savant is a CLI tool that lets you generate flash cards from PDF files using a
 large language model. It supports all language model providers that are
 compatible with the OpenAI API and support structured outputs.
@@ -25,7 +29,10 @@ to compile a binary of the program. The binary will appear at
 
 ### Precompiled binary
 
-No precompiled binaries at the moment yet.
+Install with Cargo:
+```shell
+cargo install savant
+```
 
 ### Usage
 
