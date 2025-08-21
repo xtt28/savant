@@ -1,0 +1,25 @@
+[package]
+name = "savant"
+version = "0.1.0"
+edition = "2024"
+description = "Generate flash cards from PDF files using an LLM"
+authors = ["xtt28"]
+
+[dependencies]
+anyhow = "1.0.99"
+clap = { version = "4.5.45", features = ["cargo", "derive", "env"] }
+csv = "1.3.1"
+env_logger = "0.11.8"
+log = "0.4.27"
+pdf-extract = "0.9.0"
+schemars = "1.0.4"
+serde = "1.0.219"
+tokio = { version = "1.47.1", features = ["macros", "rt-multi-thread"] }
+tysm = "0.11.0"
+
+[profile.release]
+opt-level = "s"
+lto = true
+panic = "abort"
+strip = true
+codegen-units = 1
