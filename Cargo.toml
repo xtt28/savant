@@ -1,9 +1,12 @@
 [package]
 name = "savant"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2024"
 description = "Generate flash cards from PDF files using an LLM"
 authors = ["xtt28"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/xtt28/savant"
+homepage = "https://github.com/xtt28/savant"
 
 [dependencies]
 anyhow = "1.0.99"
