@@ -27,7 +27,7 @@ cargo build --release
 to compile a binary of the program. The binary will appear at
 `target/release/savant`.
 
-### Precompiled binary
+### From Cargo
 
 Install with Cargo:
 ```shell
