@@ -38,6 +38,5 @@ async fn main() -> Result<()> {
         .write_csv_to_file(&args.output)
         .with_context(|| format!("could not write to file {:?}", &args.output))?;
 
-    println!("{:?}", card_set);
     Ok(())
 }
